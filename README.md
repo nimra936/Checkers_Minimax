@@ -32,20 +32,36 @@ python main.py
 
 ## 📁 Project Structure
 checkers-game/
+
 │
+
 ├── assets/
+
 │   └── crown.png               # Icon used when a piece becomes king
+
 │
+
 ├── checkers/
+
 │   ├── __init__.py             # (if needed)
+
 │   ├── board.py                # Board layout, movement logic
+
 │   ├── constants.py            # Color and layout settings
+
 │   ├── game.py                 # Game control logic
+
 │   ├── piece.py                # Piece drawing and king logic
+
 │   └── minimax/
+
 │       └── algorithm.py        # AI move calculation
+
+
 │
+
 ├── main.py                     # Main loop to launch game
+
 └── README.md
 
 ---
